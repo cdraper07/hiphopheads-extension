@@ -1,0 +1,15 @@
+{
+    "name": "Hip Hop Heads FRESH Songs",
+    "version": "1.0",
+    "description": "First chrome extension",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+    "default_popup": "popup.html"
+  },
+    "manifest_version": 2
+  }
